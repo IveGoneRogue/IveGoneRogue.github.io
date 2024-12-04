@@ -1,4 +1,4 @@
-	/* CSS Syntax down below and such */ 
+		/* CSS Syntax down below and such */ 
         h1 {
 		color: lightgreen;
 		font-size: 50pt;
@@ -13,9 +13,9 @@
 					color: Gold;
 					/* line width, line type, color */
 					border: 2px solid gold;
-					margin-left: 215px;
+					margin: auto;;
 					background-color: #FFFFFFAA;
-					
+			
 			}
 			
 				.heavy_border {
@@ -37,7 +37,7 @@
 					margin: 5px;
 					border-radius: 25px 0px 25px 0px;
 					width: 500px;
-						margin-left: 70px;
+					margin: auto;
 				}
 				
 				.flex_container {
@@ -49,17 +49,17 @@
 					margin: 5px;
 					border-radius: 25px 0px 25px 0px;
 					width: 500px;
-						margin-left: 70px;
+						margin: auto;
 				}
 				
-				.flex_container div {
+				.flex_container div{
 					display: flex;
-					background-color:#DDDDDD;
+					background: linear-gradient(white, silver);
 					padding: 5px;
 					margin: 5px;
 					Border: 1px solid black;
-
-					}
+					
+				}
 				
 				.flex_container3 {
 					display: flex;
@@ -68,9 +68,45 @@
 					background-color: white;
 					border : 5px solid black;
 					margin: 5px;
-					border-radius: 25px 0px 25px 0px;
+					border-radius: 15px 15px 15px 15px;
 					width: 550px;
-						margin-left: 70px;
+						margin: auto;
+						
+				}
+				.music {
+					display: flex;
+					background color: #CCCCCC;
+					direction: column;
+					background-color: white;
+					border : 5px solid black;
+					margin: 5px;
+					border-radius: 15px 15px 15px 15px;
+					width: 272px;
+					margin: auto;
+				}	
+				#slider {
+    -webkit-appearance: none; /* Remove default styling */
+    width: 100%;
+    height: 8px;
+    background: #ddd; /* Track color */
+    border-radius: 4px;
+    outline: none;
+				}
+				
+				.controls {
+					background-color: silver;
+					border: 3px solid gray;
+					width: 333px;
+					margin-left: auto;
+					margin-right: auto;
+					
+				}
+				.flex_container div:hover{
+					display: flex;
+					background: linear-gradient(gray, black);
+					padding: 5px;
+					margin: 5px;
+					Border: 1px solid black;
 
 				}
 				
@@ -100,7 +136,7 @@
 				.rounded {
 					border : 5px dashed orange;
 					margin: 5px;
-					border-radius: 25px 0px 25px 0px;
+					border-radius: 15px 15px 15px 15px;
 					width: 300px;
 					
 				}
@@ -120,3 +156,78 @@
 			
 				}
 				
+				a { 
+				color: orange;
+				text-decoration: none;
+				text-shdow: 0px 0px black;
+				
+				}
+				
+				a:visited{
+						color: purple;
+				}
+				
+				a:hover {
+					color: gold;
+					text-decoration: none;
+				}
+				a:focus {
+						color: black:
+				}
+				
+				a:active {
+						color: green;
+				}
+				
+				.flex_container4 {
+					display: flex;
+					background color: #CCCCCC;
+					direction: column;
+					background-color: white;
+					border : 5px solid black;
+					margin: 5px;
+					
+					width: 290px;
+						margin: auto;
+				}	
+			.custom-button {
+    /* Styles for the button */
+    background-color: #007BFF;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+    cursor: pointer;
+}
+
+.custom-button img {
+    width: 40px;
+    height: 40px;
+	align-items:center;
+}
+
+.custom-button:hover {
+    width: 70px;
+    height: 70px;
+	transition: width 1s;
+	transition: height 1s;
+	  background-color: #D74F4F;
+}
+
+.custom-button:active {
+    width: 70px;
+    height: 70px;
+	  background-color: #8FBC8C;
+}
+
+
+.custom-button:focus {
+    width: 55px;
+    height: 55px;
+	  background-color: #37549E;
+}
+
+.turtle_picture:hover {
+    width: 300px;
+	transition: width 1s;
